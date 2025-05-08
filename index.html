@@ -145,15 +145,41 @@
         <h1>👋 你好，我是 Lotty</h1>
     </header>
     <div class="entry-content">
-        热爱编程与写作的工程师，喜欢记录技术和思考。<br>
-欢迎访问我的博客！<br>
-<!-- raw HTML omitted -->
+        热爱编程与写作的工程师，喜欢记录技术和思考。欢迎访问我的博客！
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
 </div>
 
     </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">欢迎
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>这是一个专注于讨论风控的博客。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-07 19:15:57 +0800 CST'>May 7, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Lotty</footer>
+  <a class="entry-link" aria-label="post link to 欢迎" href="https://lotty520.github.io/posts/hello-world/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Random Access
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>随机访问和内存地址连续性 在对集合的访问中，一般会有两种访问方式：随机访问和顺序访问，不同的底层数据结构，在使用这两种访问方式时，效率是有区别的。一般来讲，内存地址连续的数据结构，在随机访问时的效率比内存地址不连续的要高。因为内存地址连续，可以通过下标很快的检索出对应的元素，反之由于内存地址不连续，在随机访问时，需要从内存地址起始位置按照链接关系一个一个的扫描，效率自然就降低了。典型的例子就是数组和链表。数组是一种内存地址连续的结构，对它的随机访问，效率比较高；链表是一种内存地址不连续的结构，对它的随机访问效率就比较低。
+RandomAccess接口 在java语言中，为了方便开发者选择高效的访问方式，系统提供了一个RandomAccess接口，该接口用来标识对应的数据结构是否支持高效的随机访问。大多数以数组为底层结构的数据结构都实现了该接口。比如常见的ArrayList。在官方声明中，也对该接口进行了很详细的描述，原文如下：
+* Marker interface used by &lt;tt&gt;List&lt;/tt&gt; implementations to indicate that * they support fast (generally constant time) random access. The primary * purpose of this interface is to allow generic algorithms to alter their * behavior to provide good performance when applied to either random or * sequential access lists. * * &lt;p&gt;The best algorithms for manipulating random access lists (such as * &lt;tt&gt;ArrayList&lt;/tt&gt;) can produce quadratic behavior when applied to * sequential access lists (such as &lt;tt&gt;LinkedList&lt;/tt&gt;). Generic list * algorithms are encouraged to check whether the given list is an * &lt;tt&gt;instanceof&lt;/tt&gt; this interface before applying an algorithm that would * provide poor performance if it were applied to a sequential access list, * and to alter their behavior if necessary to guarantee acceptable * performance. * * &lt;p&gt;It is recognized that the distinction between random and sequential * access is often fuzzy. For example, some &lt;tt&gt;List&lt;/tt&gt; implementations * provide asymptotically linear access times if they get huge, but constant * access times in practice. Such a &lt;tt&gt;List&lt;/tt&gt; implementation * should generally implement this interface. As a rule of thumb, a * &lt;tt&gt;List&lt;/tt&gt; implementation should implement this interface if, * for typical instances of the class, this loop: 该声明对于RandomAccess接口进行很详细的描述，大致包括：
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-08 15:18:26 +0800 CST'>May 8, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Lotty</footer>
+  <a class="entry-link" aria-label="post link to Random Access" href="https://lotty520.github.io/posts/random-access/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -182,19 +208,6 @@
   </div>
   <footer class="entry-footer"><span title='2025-05-08 10:15:57 +0800 CST'>May 8, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Lotty</footer>
   <a class="entry-link" aria-label="post link to 关于设备指纹，你想了解的都在这里" href="https://lotty520.github.io/posts/what-is-dfp/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">欢迎
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>这是一个专注于讨论风控的博客。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-05-07 19:15:57 +0800 CST'>May 7, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Lotty</footer>
-  <a class="entry-link" aria-label="post link to 欢迎" href="https://lotty520.github.io/posts/hello-world/"></a>
 </article>
     </main>
     
