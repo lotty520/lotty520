@@ -9,13 +9,6 @@
     <lastBuildDate>Wed, 07 May 2025 19:15:57 +0800</lastBuildDate>
     <atom:link href="https://lotty520.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://lotty520.github.io/posts/hello-world/</link>
-      <pubDate>Wed, 07 May 2025 19:15:57 +0800</pubDate>
-      <guid>https://lotty520.github.io/posts/hello-world/</guid>
-      <description>&lt;p&gt;这是测试文章&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>关于设备指纹，你想了解的都在这里</title>
       <link>https://lotty520.github.io/posts/what-is-dfp/</link>
       <pubDate>Wed, 07 May 2025 19:15:57 +0800</pubDate>
@@ -43,6 +36,13 @@
 &lt;p&gt;这种方案的优点很明显，不是依赖一个或者一组数据来进行恢复，而是依靠一个设备的全量(或者大部分)指标来进行恢复的，并且这种相似性的计算规则可以进行迭代华的持续演进，及时适用新环境；它的缺点就是可能产生碰撞，而且无法对数据修改较多的设备进行恢复。&lt;/p&gt;
 &lt;h2 id=&#34;完美方案&#34;&gt;完美方案&lt;/h2&gt;
 &lt;p&gt;在笔者看来，设备指纹的完美解决方案是由系统提供者来处理的。底层系统提供者(谷歌、ROM厂商、硬件厂商等)可以在系统底层设定不可更改的标识信息，在硬件层烧制不可更改的标识符。在最底层，它们一方面拥有极高的系统权限，另一方面可以在系统层面上抵抗绝大部分侵入。由这些底层系统提供者提供的标识信息相对来说会靠谱得多。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>欢迎</title>
+      <link>https://lotty520.github.io/posts/hello-world/</link>
+      <pubDate>Wed, 07 May 2025 19:15:57 +0800</pubDate>
+      <guid>https://lotty520.github.io/posts/hello-world/</guid>
+      <description>&lt;p&gt;这是一个专注于讨论风控的博客。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
