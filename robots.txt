@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lotty520.github.io/sitemap.xml

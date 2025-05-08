@@ -5,13 +5,13 @@
     <link>https://lotty520.github.io/posts/</link>
     <description>Recent content in Posts on Lotty&#39;s Blog</description>
     <generator>Hugo -- 0.147.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 07 May 2025 19:15:57 +0800</lastBuildDate>
+    <language>zn-ch</language>
+    <lastBuildDate>Thu, 08 May 2025 10:15:57 +0800</lastBuildDate>
     <atom:link href="https://lotty520.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于设备指纹，你想了解的都在这里</title>
       <link>https://lotty520.github.io/posts/what-is-dfp/</link>
-      <pubDate>Wed, 07 May 2025 19:15:57 +0800</pubDate>
+      <pubDate>Thu, 08 May 2025 10:15:57 +0800</pubDate>
       <guid>https://lotty520.github.io/posts/what-is-dfp/</guid>
       <description>&lt;h1 id=&#34;设备标识符&#34;&gt;设备标识符&lt;/h1&gt;
 &lt;p&gt;在移动安全领域，设备唯一标识符策略，也就是设备指纹是一种比较常见的安全手段。设备指纹安全是一种实现简单、门槛较低、安全性较高的安全手段。在国内，有不少安全公司都推出了设备指纹产品，主要覆盖android、ios、js等平台。事实上，为了确保自身数据的安全性和保密性，很多大型企业都会有自身的设备指纹团队。作者在此仅讨论下移动端android平台的设备指纹特性。&lt;/p&gt;
